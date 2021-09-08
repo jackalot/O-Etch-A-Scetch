@@ -3,4 +3,8 @@ body {
 }
 .box {
     background-color: green;
+    width: 30px;
+}
+#container {
+    display: grid;
 }
