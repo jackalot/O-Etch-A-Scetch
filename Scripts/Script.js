@@ -21,6 +21,18 @@ function reset() {
         box.classList.remove("colored");
     })
 }
-function NewGrid() {
-
+function newGrid() {
+    let size = Number(window.prompt("How many slots do you want in your grid?", ""));
+    let child = container.lastElementChild;
+    while(child)
+    {
+        container.removeChild(child);
+        child = container.lastElementChild;
+    }
+    for(i=1; i <= size; i++)
+    {
+        let newdiv = document.createElement("div");
+        newdiv.classList.add("box");
+        container.appendChild(newdiv);
+    }
 }
