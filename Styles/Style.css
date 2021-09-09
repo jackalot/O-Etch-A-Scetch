@@ -19,3 +19,6 @@ body {
 .box:hover {
     background: black;
 }
+.colored {
+    background: black;
+}

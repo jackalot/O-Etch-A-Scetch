@@ -9,3 +9,9 @@ for(i=1; i <= 256; i++)
     newdiv.classList.add("box");
     container.appendChild(newdiv);
 }
+const boxes = document.querySelectorAll("div");
+boxes.forEach((box) => {
+    box.addEventListener("mouseenter", () => {
+        box.classList.add("colored");
+    })
+})
