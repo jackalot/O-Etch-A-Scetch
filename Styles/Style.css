@@ -7,14 +7,15 @@ body {
 }
 #container {
     display: grid;
-    grid-template-columns: 30px 30px 30px 30px;
+    grid-template-columns: repeat(16, minmax(0, 5px));
     background-color: green;
-    padding: 10px;
 }
 .box {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
+    padding: 5px;
     text-align: center;
+}
+.box:hover {
+    background: black;
 }
