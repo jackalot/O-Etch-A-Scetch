@@ -7,7 +7,7 @@ body {
 }
 #container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30px 30px 30px 30px;
     background-color: green;
     padding: 10px;
 }
