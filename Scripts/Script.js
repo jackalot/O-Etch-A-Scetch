@@ -15,3 +15,12 @@ boxes.forEach((box) => {
         box.classList.add("colored");
     })
 })
+function reset() {
+    const coloredBoxes = document.querySelectorAll(".colored");
+    coloredBoxes.forEach((box) => {
+        box.classList.add("box");
+    })
+}
+function NewGrid() {
+
+}
