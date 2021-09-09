@@ -35,4 +35,13 @@ function newGrid() {
         newdiv.classList.add("box");
         container.appendChild(newdiv);
     }
+    AddEvent();
+}
+function AddEvent () {
+    const boxes = document.querySelectorAll("div");
+    boxes.forEach((box) => {
+        box.addEventListener("mouseenter", () => {
+            box.classList.add("colored");
+        })
+    })
 }
