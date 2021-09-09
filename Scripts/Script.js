@@ -18,7 +18,7 @@ boxes.forEach((box) => {
 function reset() {
     const coloredBoxes = document.querySelectorAll(".colored");
     coloredBoxes.forEach((box) => {
-        box.classList.add("box");
+        box.classList.remove("colored");
     })
 }
 function NewGrid() {
